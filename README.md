@@ -1,1 +1,1 @@
-"- projeto carrinho de compras(modelo ifood) " 
+- projeto carrinho de compras (modelo ifood) 
