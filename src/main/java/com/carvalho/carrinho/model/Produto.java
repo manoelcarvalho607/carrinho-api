@@ -45,4 +45,46 @@ public class Produto {
 	private Restaurante restaurante;
 	
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getValorUnitario() {
+		return valorUnitario;
+	}
+
+	public void setValorUnitario(double valorUnitario) {
+		this.valorUnitario = valorUnitario;
+	}
+
+	public Boolean getDisponivel() {
+		return disponivel;
+	}
+
+	public void setDisponivel(Boolean disponivel) {
+		this.disponivel = disponivel;
+	}
+
+	public Restaurante getRestaurante() {
+		return restaurante;
+	}
+
+	public void setRestaurante(Restaurante restaurante) {
+		this.restaurante = restaurante;
+	}
+	
+	
+
 }

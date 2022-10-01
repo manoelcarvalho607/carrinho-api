@@ -49,10 +49,50 @@ public class Sacola {
 	
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Item> itens;
+	
 	private double valorTotal;
 	
 	@Enumerated
 	private FormaPagamento formaPagamento;
 	private boolean fechada;
+	
+	public List<Item> getItens() {
+		return itens;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public double getValorTotal() {
+		return valorTotal;
+	}
+	public void setValorTotal(double valorTotal) {
+		this.valorTotal = valorTotal;
+	}
+	public FormaPagamento getFormaPagamento() {
+		return formaPagamento;
+	}
+	public void setFormaPagamento(FormaPagamento formaPagamento) {
+		this.formaPagamento = formaPagamento;
+	}
+	public boolean isFechada() {
+		return fechada;
+	}
+	public void setFechada(boolean fechada) {
+		this.fechada = fechada;
+	}
+	public void setItens(List<Item> itens) {
+		this.itens = itens;
+	}
+	
+	
 
 }
